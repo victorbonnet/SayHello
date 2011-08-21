@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SayHello</string>
+    
+    <string name="name">Hello what\'s your name?</string>
+    <string name="send">Send</string>
+    <string name="error">Name is required!</string>
+    <string name="back">Back</string>
+    <string name="hello">Hello, </string>
+</resources>
