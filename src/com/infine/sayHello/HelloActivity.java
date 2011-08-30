@@ -19,6 +19,8 @@ public class HelloActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello);
         
+        test
+        
         context = this;
         textView = (TextView) findViewById(R.id.hello);
         button = (Button) findViewById(R.id.back);
