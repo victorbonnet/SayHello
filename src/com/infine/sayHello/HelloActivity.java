@@ -18,9 +18,7 @@ public class HelloActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello);
-        
-        test
-        
+
         context = this;
         textView = (TextView) findViewById(R.id.hello);
         button = (Button) findViewById(R.id.back);
