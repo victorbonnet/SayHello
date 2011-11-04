@@ -23,7 +23,7 @@ public class HelloActivity extends Activity {
         textView = (TextView) findViewById(R.id.hello);
         button = (Button) findViewById(R.id.back);
         
-        textView.setText(getResources().getString(R.string.hello));
+        textView.setText(getResources().getString(R.string.hello) + this.getIntent().getStringExtra("Name") + "!");
         
         button.setOnClickListener(new OnClickListener() {
 			

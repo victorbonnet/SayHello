@@ -33,6 +33,7 @@ public class SayHelloActivity extends Activity {
 					Toast.makeText(context, R.string.error, 1000).show();
 				} else {
 					Intent intent = new Intent(context, HelloActivity.class);
+					intent.putExtra("Name", editText.getText().toString());
 					context.startActivity(intent);
 				}
 				
